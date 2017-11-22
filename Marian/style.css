@@ -1,9 +1,169 @@
+/* MARIAN */
+
+@font-face {
+    font-family: orf;
+    src: url(http://orf.at/fonts/OrfOn-Regular.woff2);
+}
+
 * {
+	font-family: orf, sans-serif;
+	color: white;
+	letter-spacing: 0.5px;
+}
+
+body {
 	background-color: #5487BF;
-	font-family: arial, sans-serif;
+	width: 1020px;
+	margin-left: 30px;
+}
+
+#main-content {
+	width: 800px;
+}
+
+main {
+	background-color: #5D8DC5;
+	padding-bottom: 40px;
 }
 
 aside {
 	float: right;
-	background-color: black;
+	width: 20%;
 }
+
+aside img {
+	position: fixed;
+}
+
+nav {
+   	overflow: hidden;
+   	background-color: #4371A3;
+   	height: 30px;
+}
+
+header {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+li {
+	float:left;
+	overflow: hidden;
+}
+
+li a {
+	padding: 5px 8px 6px 10px;
+	font-size: 15px;
+
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+nav ul {
+	position: relative;
+	bottom: 14px;
+}
+
+nav {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-size: 16px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header img {
+	margin-bottom: 15px;
+}
+
+img[src="logo-2.png"] {
+	float: right;
+}
+
+img[src="logo-1.png"] {
+	padding-left: 40px;
+}
+
+header {
+	padding-top: 20px;
+}
+
+#headlines {
+	display: inline-flex;
+}
+
+.left img, .right img {
+	padding-left: 5px;
+}
+
+.right	{
+	float: right;
+}
+
+.topic {
+	text-align: right;
+	vertical-align: top;
+	float: left;
+	width: 150px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+.unit, .special-unit {
+	display: inline-flex;
+	padding: 10px 0px;
+}
+
+.special-unit {
+	background-color: #4371A3;
+	width: 800px;
+
+}
+
+#headlines a {
+	float: left;
+}
+
+article {
+	font-size: 20px;
+	font-variant: normal;
+	line-height: 22px;
+	padding-left: 15px;
+	width: 450px;
+}
+
+h1 {
+	vertical-align: top;
+	margin: 0px;
+	color:#333;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+a[href="#"] {
+	display: inline-block;
+}
+
+footer nav {
+	background-color: #16406B;
+}
+
+footer a {  
+	font-size: 14px;
+	font-weight: bold;
+	padding: 8px 40px;
+}
+
+footer {  
+	margin-bottom: 200px;
+}
+
+/* MARIAN */
