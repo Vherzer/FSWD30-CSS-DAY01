@@ -10,6 +10,16 @@
 	color: white;
 	letter-spacing: 0.5px;
 }
+ 		
+.weather {
+	display:block; 
+	width: 170px; 
+	height: 40px;
+	text-align: center; 
+	font-size: 12px; 
+	float: left;
+	padding: 0px 80px 20px;
+}
 
 body {
 	background-color: #5487BF;
@@ -90,6 +100,7 @@ img[src="logo-2.png"] {
 
 img[src="logo-1.png"] {
 	padding-left: 40px;
+	float: left;
 }
 
 header {
